@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bounceBallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bounce Ball" />
+
+    <ImageView
+        android:id="@+id/bounceBallImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ball_shape2"
+        android:layout_below="@+id/bounceBallButton"
+        android:layout_toLeftOf="@+id/bounceBallImageSmall"
+        android:layout_toStartOf="@+id/bounceBallImageSmall" />
+
+    <ImageView
+        android:id="@+id/bounceBallImageSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ballshapesmall"
+        android:layout_alignBottom="@+id/bounceBallImage"
+        android:layout_alignRight="@+id/bounceBallButton"
+        android:layout_alignEnd="@+id/bounceBallButton" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Gravitational force varies directly as mass, while acceleration varies directly as force and inversely as mass. Thus in the same gravitational field, objects with varing masses will fall with the same acceleration."
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

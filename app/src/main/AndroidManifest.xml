@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adity.physicsfun2" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OneActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.OneActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TwoActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.TwoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThreeActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.ThreeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FourActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.FourActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FiveActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.FiveActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SixActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.SixActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SevenActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.SevenActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EightActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.EightActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NineActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.NineActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TenActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.TenActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BouncingBallAnimationActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.BouncingBallAnimationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ElectronDeathSpiralActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.ElectronDeathSpiralActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ImpuritiesActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.ImpuritiesActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DiamagneticActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.DiamagneticActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SlitActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.SlitActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BrazilNutsActivity" >
+            <intent-filter>
+                <action android:name="com.example.adity.physicsfun2.BrazilNutsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

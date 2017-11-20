@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adity.physicsfun2.ThreeActivity">
+
+
+    <VideoView
+        android:id="@+id/videoView6"
+        android:layout_width="379dp"
+        android:layout_height="223dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="410dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="Play"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView6"
+        android:onClick="onClick14"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="121dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="37dp"
+        android:text="As the slit approaches the magnitude of the wavelength of the light that enters it, it will start to diffract the waves as shown in the video. This will allow for more of the room to be lit."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
